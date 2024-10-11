@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="text/javascript" src="converter.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="browser.css">
+    <title>margrave converter</title>
+    <!--<link rel="shortcut icon" type="image/png" href="margrave.png">-->
+  </head>
+  <body>
+    <h2>margrave converter</h2>
+    <div id="head">
+      <textarea id="input" rows="15"></textarea>
+      <a href="reference.html">Reference</a>
+      <button id="convert" onclick="convert();">Convert</button>
+      <button id="convert-to-source" onclick="convertToSource();">Convert to source</button>
+      <button id="download" onclick="download();">Convert and download</button>
+      Filename:
+      <input type="text" id="filename" style="display:inline" placeholder="Filename">
+    </div>
+    <div id="output"></div>
+  </body>
+</html>
